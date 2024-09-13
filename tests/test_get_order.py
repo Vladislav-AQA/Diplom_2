@@ -2,29 +2,29 @@ import requests
 import pytest
 import allure
 from helpers import urls
-from helpers import data
-from helpers.create_order import Order
+from helpers.order import Order
+from helpers.user import User
+from helpers.fake_user_and_order import fake_order_body
 
 @allure.title('Проверка получения заказа')
 class TestGetOrder:
 
     @allure.description('Получение статус-кода при получении заказа авторизованного пользователя')
-    def test_get_order_with_auth(self):
-        response = requests.post(urls.CREATE_USER, data=data.payload)
-        access_token = requests.post(urls.LOGIN_USER, response.json().get('accessToken'))
-        body_order = {"ingredients": ["60d3b41abdacab0026a733c6","609646e4dc916e00276b2870"]}
-        Order.create_order(access_token, body_order)
+    def test_get_order_with_auth(self, login_user):
+        access_token = login_user.json().get('accessToken')
+        order_body = fake_order_body()
+        Order.create_order(access_token, order_body)
         response_get_order = Order.get_order(access_token)
 
-        assert response_get_order == 200
+        assert response_get_order.status_code == 200
 
     @allure.description('Получение статус-кода при получении заказа без авторизации')
-    def test_get_order_without_auth(self):
-        response = requests.post(urls.CREATE_USER, data=data.payload)
+    def test_get_order_without_auth(self, login_user):
+        access_token = login_user.json().get('accessToken')
+        order_body = fake_order_body()
+        Order.create_order(access_token, order_body)
         access_token = None
-        body_order = {"ingredients": ["60d3b41abdacab0026a733c6", "609646e4dc916e00276b2870"]}
-        Order.create_order(access_token, body_order)
         response_get_order = Order.get_order(access_token)
 
-        assert response_get_order == 401
+        assert response_get_order.status_code == 401
 

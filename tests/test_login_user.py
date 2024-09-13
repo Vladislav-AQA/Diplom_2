@@ -1,28 +1,32 @@
 import requests
 import pytest
 import allure
-from helpers import urls
-from helpers import data
-from faker import Faker
-
-fake = Faker(locale="ru_RU")
+from helpers import fake_user_and_order, urls
+from helpers.user import User
 
 
 @allure.title('Проверка логина пользователя')
 class TestLoginUser:
 
     @allure.description('Получение статус-кода при успешном логине пользователя')
-    def test_login_exist_user(self):
-        response = requests.post(urls.CREATE_USER, data=data.payload)
-        access_token = requests.post(urls.LOGIN_USER, response.json().get('accessToken'))
+    def test_login_exist_user(self, create_delete_user):
+        user_data = create_delete_user
+        response_login = User.log_in(user_data.get('email', ''), user_data.get('password', ''))
+        access_token = response_login.json().get('accessToken')
 
-        assert response.status_code == 200
+        assert response_login.status_code == 200
 
     @allure.description('Получение статус-кода с неверным логином и паролем')
-    def test_required_login_password(self):
-        response = requests.post(urls.CREATE_USER, data=data.payload)
-        email = response.get('email', '')
-        password = response.get('password', '')
-        access_token = requests.post(urls.LOGIN_USER, response.get('email', fake.email()), response.get('password', fake.password()))
+    @pytest.mark.parametrize('error', ['email', 'password'])
+    def test_required_login_password(self, create_delete_user, error):
+        user_data = create_delete_user.copy()
+        email = user_data.get('email', '')
+        password = user_data.get('password', '')
+        if error == "email":
+            user_data['email'] = 'qwerty@ya.ru'
+        elif error == "password":
+            user_data['password'] = 'qwerty1122333'
 
-        assert access_token == 401
+        login_response = User.log_in(user_data.get('email', email), user_data.get('password', password))
+
+        assert login_response.status_code == 401

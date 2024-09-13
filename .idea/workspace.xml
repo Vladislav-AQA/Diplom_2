@@ -1,24 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6aaa1e-26aa-4a1e-8ac0-26a01eb996e9" name="Changes" comment="" />
+    <list default="true" id="9d6aaa1e-26aa-4a1e-8ac0-26a01eb996e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/02cbf12d-174e-4c1c-914c-5e164d27e2be-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/02d0c59c-3137-4dd0-9073-aefacbc28ee9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/131162f8-c94c-4f3a-9e16-b21f1c7bdee6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/1ebf0f30-c8e0-4efd-8aad-922fdde600da-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/26722fca-443e-4e40-ae23-bf2a3b6a1175-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/27ef85ca-e202-4f16-946b-d7a8896f236c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/3b43d42f-a60b-4474-b634-3d82fa1082f4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/3d082cf5-df1a-4d87-aebd-448660a1ef78-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/3eb6c778-a130-4813-bab7-b053e5e675ec-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/3f8b3156-fff6-43cd-a4f8-b08a5a68a59d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/463c523e-22b9-404b-bb5e-11e9c014e587-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/48d5e4c6-9415-41bb-8603-be867aa18cc2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/50100fc0-dea9-437b-bb4b-51e9219fb2c6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/55021207-aa7b-4c6a-975a-2416878c5f0c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/556a6c2d-12c2-40a7-96b0-c78470c1d8b8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/55fc2309-56c1-4f17-916c-0260c4e7c9dd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/566c852f-fbc0-482b-9ca2-70778469e8a3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/5a8c16d3-352d-4799-9825-34011efdcd5c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/633b0327-c417-4ccd-91b0-bc21f9534fef-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/6396e803-7e52-4bb3-bb64-5dd35b4feb2d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/63e2e6ce-80c0-436d-9a65-e34cefffae1a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/6874b8cb-b52c-4184-801f-7b83e1fa2bc4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/73ae1ee3-3f85-4561-87ae-9c515760561a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/80107586-dd1c-4978-9e35-b0c33ad290f4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/99d95c4b-c4dc-46ab-a472-ed3b5afc0fa1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/9fc77bce-37d3-4bb0-af84-7e5acad5fa00-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/a2fea2c3-9d12-4f56-82a1-a7b5dcb56b32-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/a8f2f856-0269-4990-a45e-8b68af117a5e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/a95a0eec-57ad-4353-85bc-eabeb9b0d8fc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/b058af63-e231-4951-804a-3e38dbd33b06-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/b1c6b090-3b1f-4e90-ba7b-b4ca71e13ff2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/b334a394-9da5-4415-a9cd-a1ba77826f0a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/b3d8dbea-6097-4db6-8e04-6533640e565b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/b5c7ddb3-825d-4fce-86b2-4fa78de1ae94-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/c7c04bc9-f8d1-4927-8166-5d7b8caa99b7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/cfcace73-2333-4035-859b-eaecf669209d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/cff7d8c7-086f-4a33-b21e-6bcde819fec9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/d1625cd9-9d38-4b0e-995d-f4ba0490c9a2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/dbc0f0e1-e56f-4084-af69-8c580cc791b3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/dd98d508-bf48-4482-a9a7-35054e6a9f8a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/de1ac71d-23c7-42cb-8557-30502879039f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/defa9311-d53f-476c-a01c-9cdfbad3adf5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/e2752a94-5b1c-4c5a-aa93-2924b4e1a223-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/e4b84200-aef8-4ed7-92f6-e053c32fb08c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/f8605149-5134-424e-813b-cd3e2156c92c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure_results/fd46b0fd-152f-4769-bee4-d7dbcdd5debc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/fake_user_and_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/ingredients.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/new_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/problem_ingredients.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/07bba879-437c-4b7d-b2f1-8eb366aaf83b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/0feb17fc-090e-448d-bdb6-599bff80c70c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/185d6c50-8912-415f-814f-8e4be34b5693-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/25e44792-e917-4998-9ff6-b97e8b12ca25-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/5024aa76-12f9-47dd-9e01-ee833ce5201e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/64b63d52-1ec3-4b2a-b1bd-184f48555cd8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/a459f0db-127d-42fa-9e08-9387adfa8c6e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/ab746314-b17f-479b-92e6-a3d883d06dc1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/abcba060-d9c3-4d51-9ecc-844fd52192af-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/ad4d0486-4f66-49aa-8c61-de6d04964d49-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/b0fa6dee-061a-4d2b-9b8f-9e85b43b6f42-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/ce230a81-d6bd-4f55-8040-7cbca6c61864-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/df31328c-6b5b-4033-a2f0-c808e564ac5f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/e22b98e1-3bba-4438-ae92-f149e63814f9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/f07870d4-b7ed-4c49-96b2-8e8cb597fbc9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/f12bc664-7500-45f3-a382-15d9a7cbc842-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure_results/4a4bb247-1c6f-4cd7-9d26-701b1d196f0f-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_results/f40f6a80-7bd1-4050-8068-76577baff901-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/create_order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_create_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_create_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_create_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_edit_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_edit_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_get_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_user.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ljPmmkDeNhvXfHKOOJ19PbVo8Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_create_order.TestCreateOrder.executor": "Run",
+    "Python tests.Python tests for test_create_order.TestCreateOrder.test_create_order_with_auth.executor": "Run",
+    "Python tests.Python tests for test_create_order.TestCreateOrder.test_create_order_without_ingredients.executor": "Run",
+    "Python tests.Python tests for test_create_user.TestCreateUser.executor": "Run",
+    "Python tests.Python tests for test_create_user.TestCreateUser.test_create_new_user.executor": "Run",
+    "Python tests.Python tests for test_create_user.TestCreateUser.test_create_new_usr.executor": "Run",
+    "Python tests.Python tests for test_create_user.TestCreateUser.test_create_same_user.executor": "Run",
+    "Python tests.Python tests for test_edit_user.TestEditUser.test_edit_no_auth_user.executor": "Run",
+    "Python tests.Python tests for test_edit_user.TestEditUser.test_edit_user.executor": "Run",
+    "Python tests.Python tests for test_get_order.TestGetOrder.test_get_order_with_auth.executor": "Run",
+    "Python tests.Python tests for test_login_user.TestLoginUser.test_login_exist_user.executor": "Run",
+    "Python tests.Python tests for test_login_user.TestLoginUser.test_required_login_password.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "C:/Users/landy/PycharmProjects/Diplom/Diplom_2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\landy\PycharmProjects\Diplom\Diplom_2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_create_order.TestCreateOrder.test_create_order_without_ingredients">
+    <configuration name="Python tests for test_create_order.TestCreateOrder" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_create_order.TestCreateOrder&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_create_order.TestCreateOrder.test_create_order_with_auth" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_create_order.TestCreateOrder.test_create_order_with_auth&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_create_order.TestCreateOrder.test_create_order_without_ingredients" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_create_order.TestCreateOrder.test_create_order_without_ingredients&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_create_user.TestCreateUser.test_create_new_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_create_user.TestCreateUser.test_create_new_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login_user.TestLoginUser.test_login_exist_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login_user.TestLoginUser.test_login_exist_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_create_order.TestCreateOrder.test_create_order_without_ingredients" />
+        <item itemvalue="Python tests.Python tests for test_create_user.TestCreateUser.test_create_new_user" />
+        <item itemvalue="Python tests.Python tests for test_create_order.TestCreateOrder" />
+        <item itemvalue="Python tests.Python tests for test_create_order.TestCreateOrder.test_create_order_with_auth" />
+        <item itemvalue="Python tests.Python tests for test_login_user.TestLoginUser.test_login_exist_user" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -36,6 +238,19 @@
       <option name="presentableId" value="Default" />
       <updated>1725690673791</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit for Diplom_2">
+      <option name="closed" value="true" />
+      <created>1725691020159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725691020159</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit for Diplom_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit for Diplom_2" />
   </component>
 </project>
