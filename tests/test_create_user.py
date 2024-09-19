@@ -1,4 +1,3 @@
-import requests
 import pytest
 import allure
 from helpers import fake_user_and_order, messages

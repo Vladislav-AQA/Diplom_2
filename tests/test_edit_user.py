@@ -1,5 +1,4 @@
 import allure
-import requests
 import pytest
 from helpers import new_data
 from helpers.user import User

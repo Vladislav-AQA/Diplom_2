@@ -1,7 +1,4 @@
-import requests
-import pytest
 import allure
-from helpers import urls
 from helpers.order import Order
 from helpers.user import User
 from helpers.fake_user_and_order import fake_order_body
